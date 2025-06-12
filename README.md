@@ -3,7 +3,7 @@ The Deetsbox backend API repository, powering a better developer experience
 
 ## Running Locally
 
-Python version 3.13.x required.
+Python version 3.12.x or higher required.
 
 ```bash
 .venv/scripts/activate
@@ -18,5 +18,5 @@ pip install -r requirements.txt
 ### Running locally
 
 ```bash
-fastapi dev main.py
+fastapi dev app/main.py
 ```
